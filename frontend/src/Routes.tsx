@@ -10,9 +10,8 @@ const Routes = () => {
             </Route>
             </Switch>
             <Switch>
-                <Route path="/dashboard" exact>
-                    <Dashboard />
-                    <Home />
+                <Route path="/dashboard">
+                    <Dashboard />                  
                 </Route>
             </Switch>
         </BrowserRouter>
